@@ -1,0 +1,57 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: black;
+}
+
+section {
+  text-align: center;
+}
+
+.gameTitle {
+  font-size: 100px;
+  color: red;
+  margin: 10px auto;
+}
+
+.gameContainer {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 306px;
+  margin: 10px auto;
+  background-color: black;
+  color: red;
+}
+
+.gameRestart {
+  background-color: black;
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  color: red;
+  box-shadow: 2px 2px 2px 2px #aa0d02;
+  border: 2px solid #d82323;
+}
+
+.gameStatus {
+  font-size: 50px;
+  color: #ff0000;
+  margin: 20px auto;
+}
+
+.gamerRestart:hover {
+  background-color: rgb(26, 25, 25);
+}
+.cell:hover {
+  background-color: rgb(26, 25, 25);
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  box-shadow: 2px 2px 2px 2px red;
+  border: 2px solid red;
+  font-family: "Arial", cursive;
+  cursor: pointer;
+  line-height: 80px;
+  font-size: 50px;
+}
